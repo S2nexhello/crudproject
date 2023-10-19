@@ -72,7 +72,7 @@ def crud():
             result= cursor.fetchall()
             column_name= [desc[0] for desc in cursor.description]
             df = pd.DataFrame(result,columns=column_name)
-            st.dataframe(df)
+            st.dataframe(df,hide_index=True)
         
             query1= "Select id from student_info"
             cursor.execute(query1)
