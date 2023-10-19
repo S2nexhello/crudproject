@@ -4,7 +4,7 @@ Project Description:
 The "MySQL Database CRUD Operations" project is a web application built using Python, the Streamlit framework, and a MySQL database. The project is designed to demonstrate how to perform CRUD (Create, Read, Update, Delete) operations on a MySQL database through a userfriendly and interactive web interface created with Streamlit.
 
 Project Objectives:
-1. Create Records (Create): Users can add new data records to the MySQL database using a userfriendly form. This includes providing input for various fields, such as name, age, email, etc.
+1. Create Records (Create): Users can add new data records to the MySQL database using a userfriendly form. This includes providing input for various fields, such as id, firstname,lastname,rollid.
 
 2. Read Records (Read): Users can view and search for existing records stored in the MySQL database. The application allows for filtering and sorting data based on user preferences.
 
